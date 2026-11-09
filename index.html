@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WatTunnel - Fast Encrypted Tunnel That Works When Only Ping Gets Through</title>
+<meta name="description" content="WatTunnel is a fast, encrypted TCP/UDP tunnel for Windows that keeps working when a network only lets ping through. Download WatTunnel and get a stable connection on restricted networks.">
+<meta name="keywords" content="anti-censorship, censorship-circumvention, cloudflare, ech, golang, icmp-tunnel, internet-freedom, iran, iran-internet, ping-tunnel, port-forwarding, reality, shadowsocks, tunnel, tunnel-server, tunneling, vless, vpn, wireguard, xray">
+<meta name="robots" content="index, follow">
+<meta name="author" content="WatTunnel">
+<link rel="canonical" href="https://github.com/hamzasalam323/WatTunnel">
+<meta property="og:type" content="website">
+<meta property="og:title" content="WatTunnel - Fast Encrypted Tunnel That Works When Only Ping Gets Through">
+<meta property="og:description" content="A fast, encrypted TCP/UDP tunnel that keeps working when the network only lets ping through. Download WatTunnel for Windows and reconnect.">
+<meta property="og:url" content="https://github.com/hamzasalam323/WatTunnel">
+<meta property="og:site_name" content="WatTunnel">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="WatTunnel - Fast Encrypted Tunnel That Works When Only Ping Gets Through">
+<meta name="twitter:description" content="Encrypted TCP/UDP tunnel with ICMP, UDP, TCP, TLS, WebSocket, HTTP/2 and gRPC carriers in one process. Free download for Windows.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "WatTunnel",
+  "applicationCategory": "NetworkApplication",
+  "operatingSystem": "Windows",
+  "description": "Fast, encrypted TCP/UDP tunnel that keeps working when the network only lets ping through. ICMP, UDP, TCP, TLS, WebSocket, HTTP/2 and gRPC carriers in one process.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "downloadUrl": "https://github.com/hamzasalam323/WatTunnel/releases"
+}
+</script>
+<style>
+  @media (max-width: 640px) {
+    .wt-wrap { padding: 20px 16px 48px 16px !important; }
+    .wt-h1 { font-size: 26px !important; line-height: 1.3 !important; }
+    .wt-h2 { font-size: 20px !important; }
+    .wt-cta { font-size: 16px !important; padding: 16px 22px !important; display: block !important; text-align: center !important; }
+    .wt-card { padding: 18px !important; }
+    .wt-body { font-size: 16px !important; }
+  }
+</style>
+</head>
+<body style="margin:0; padding:0; background:#f4f7fb; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color:#1f2937; -webkit-font-smoothing: antialiased;">
+
+<div class="wt-wrap" style="max-width:920px; margin:0 auto; padding:32px 24px 64px 24px;">
+
+  <h1 class="wt-h1" style="font-size:38px; line-height:1.25; margin:0 0 16px 0; color:#0f172a; font-weight:800; letter-spacing:-0.5px;">📡 WatTunnel - Reach the Open Internet, Anywhere</h1>
+
+  <p class="wt-body" style="font-size:18px; line-height:1.7; margin:0 0 24px 0; color:#374151;">
+    WatTunnel is a small program for Windows that builds a private, encrypted path out of a restricted network. It keeps working even when that network only lets ping through. No technical skills needed &mdash; download it, open it, and you are connected.
+  </p>
+
+  <p style="margin:0 0 28px 0;">
+    <a class="wt-cta" href="https://github.com/hamzasalam323/WatTunnel/releases" style="display:inline-block; background:linear-gradient(135deg, #6d28d9 0%, #0ea5e9 100%); color:#ffffff; text-decoration:none; font-size:19px; font-weight:700; padding:18px 36px; border-radius:12px; box-shadow:0 10px 24px rgba(109,40,217,0.28); letter-spacing:0.2px;">⬇️ Get WatTunnel for Windows</a>
+  </p>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:40px 0 14px 0; color:#0f172a; font-weight:700;">🚀 What Is WatTunnel?</h2>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Some networks &mdash; offices, schools, hotels, cafés, and entire countries &mdash; block almost everything that tries to leave. Websites fail to load, apps stop working, and the only thing that still answers is a simple ping. WatTunnel was built for exactly that situation.
+  </p>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Instead of giving up when normal connections are blocked, WatTunnel quietly switches to a route the network still allows. It can carry your traffic inside ping messages, inside ordinary web requests, or inside a normal-looking encrypted session. All of that happens automatically, in one single program, without you having to configure anything.
+  </p>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Everything that travels through WatTunnel is encrypted before it leaves your computer. The network you are on can see that something is moving &mdash; but not what it is, who you are talking to, or what you are sending.
+  </p>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:40px 0 14px 0; color:#0f172a; font-weight:700;">✨ What It Does For You</h2>
+
+  <div class="wt-card" style="background:#ffffff; border:1px solid #e5e7eb; border-radius:14px; padding:24px 26px; box-shadow:0 4px 14px rgba(15,23,42,0.06);">
+    <ul style="margin:0; padding-left:22px; font-size:17px; line-height:1.9; color:#374151;">
+      <li><strong>Keeps working when everything else fails.</strong> If the network only allows ping, WatTunnel uses ping as its path.</li>
+      <li><strong>One program, many routes.</strong> ICMP, UDP, TCP, TLS, WebSocket, HTTP/2 and gRPC carriers all live inside the same application, so you never have to pick one.</li>
+      <li><strong>Hides in plain sight.</strong> Traffic can be wrapped so it looks like ordinary web browsing, which makes it much harder to spot and block.</li>
+      <li><strong>Fast, not just hidden.</strong> WatTunnel is designed for real work and real streaming &mdash; not for crawling along at a snail's pace.</li>
+      <li><strong>Full encryption end to end.</strong> Your data is locked before it leaves your device and unlocked only at the other side.</li>
+      <li><strong>Works with the tools you already use.</strong> It plays nicely alongside popular proxy, VPN and forwarding setups instead of replacing them.</li>
+      <li><strong>Handles both TCP and UDP.</strong> Browsing, messaging, video calls and games all travel properly.</li>
+      <li><strong>Completely free to download.</strong> No account, no sign-up, no payment details.</li>
+    </ul>
+  </div>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:40px 0 14px 0; color:#0f172a; font-weight:700;">💻 Before You Start</h2>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Take a minute to check these simple things before downloading. They will save you a lot of head-scratching later.
+  </p>
+
+  <div class="wt-card" style="background:#ffffff; border:1px solid #e5e7eb; border-radius:14px; padding:24px 26px; box-shadow:0 4px 14px rgba(15,23,42,0.06);">
+    <ul style="margin:0; padding-left:22px; font-size:17px; line-height:1.9; color:#374151;">
+      <li><strong>Windows computer.</strong> A normal desktop or laptop running Windows 10 or Windows 11, 64-bit.</li>
+      <li><strong>An internet connection.</strong> Even a heavily restricted one is fine &mdash; that is the whole point.</li>
+      <li><strong>About 50 MB of free space.</strong> WatTunnel is a small download and a small program.</li>
+      <li><strong>The connection details from whoever runs your tunnel server.</strong> WatTunnel needs a server address and a matching key. Ask the person who set it up for these &mdash; they look like a short line of text.</li>
+      <li><strong>Permission to install.</strong> If you are on a work or school computer, you may need an administrator to allow the program to run.</li>
+    </ul>
+  </div>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:40px 0 14px 0; color:#0f172a; font-weight:700;">📥 Download and Setup</h2>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 18px 0; color:#374151;">
+    All official WatTunnel downloads live on the project's release page. Visit this link to download the application.
+  </p>
+
+  <p style="margin:0 0 18px 0;">
+    <a href="https://github.com/hamzasalam323/WatTunnel/releases" style="display:inline-block; background:linear-gradient(135deg, #059669 0%, #10b981 100%); color:#ffffff; text-decoration:none; font-size:17px; font-weight:700; padding:14px 28px; border-radius:10px; box-shadow:0 8px 20px rgba(5,150,105,0.25);">Download WatTunnel &rarr;</a>
+  </p>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    On that page you will see a list of releases. Choose the newest one at the top. Inside it you will find the Windows download file. Click it once to save it to your computer &mdash; it usually lands in your <em>Downloads</em> folder.
+  </p>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Only take files from this official page. If someone sends you WatTunnel as an attachment in a message or through a file-sharing site, do not open it &mdash; go back to the official link instead.
+  </p>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:40px 0 14px 0; color:#0f172a; font-weight:700;">🖱️ How to Run It on Windows</h2>
+
+  <ol style="margin:0 0 18px 0; padding-left:24px; font-size:17px; line-height:1.9; color:#374151;">
+    <li style="margin-bottom:12px;"><strong>Open your Downloads folder.</strong> Press the Windows key, type <em>Downloads</em>, and press Enter.</li>
+    <li style="margin-bottom:12px;"><strong>Find the WatTunnel file you just downloaded.</strong> It will be the file you clicked on the release page a moment ago.</li>
+    <li style="margin-bottom:12px;"><strong>Double-click it to start.</strong> If Windows shows a blue "Windows protected your PC" box, click <em>More info</em> and then <em>Run anyway</em>. This appears because the file is new and uncommon, not because anything is wrong.</li>
+    <li style="margin-bottom:12px;"><strong>Paste your connection details.</strong> When WatTunnel opens, copy the connection line you received from whoever runs your server and paste it into the setup field.</li>
+    <li style="margin-bottom:12px;"><strong>Press Connect.</strong> The status indicator will change once the tunnel is up. This usually takes a couple of seconds.</li>
+    <li style="margin-bottom:12px;"><strong>Try a website.</strong> Open your normal browser and load a page that was failing before. If it loads, you are done.</li>
+  </ol>
+
+  <div class="wt-card" style="background:#eff6ff; border:1px solid #bfdbfe; border-radius:14px; padding:20px 24px; box-shadow:0 4px 14px rgba(15,23,42,0.05);">
+    <p style="margin:0; font-size:16px; line-height:1.75; color:#1e3a8a;">
+      <strong>Keep the window open.</strong> WatTunnel has to stay running while you use the connection. Closing the window turns the tunnel off.
+    </p>
+  </div>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:40px 0 14px 0; color:#0f172a; font-weight:700;">🛡️ Is It Safe to Use?</h2>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Yes. WatTunnel encrypts your traffic before it leaves your computer and only the other end of the tunnel &mdash; the server you were given details for &mdash; can unlock it. Nobody sitting on the network between the two points can read your pages, your messages, or your passwords.
+  </p>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Two honest points to keep in mind. First, the person who runs your tunnel server can, in principle, see traffic as it leaves the tunnel on the other side &mdash; so only use servers you trust. Second, no tool can promise that a restriction will never be tightened. WatTunnel is actively maintained and adds new routes as networks change, which is why keeping it updated matters.
+  </p>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:40px 0 14px 0; color:#0f172a; font-weight:700;">🌍 Who Is This For</h2>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    WatTunnel is for anyone whose connection is being squeezed by the network around them. Journalists and researchers who need to reach blocked sites. People living where the open internet is filtered. Travellers stuck behind a hotel or airport firewall. Remote workers who need a stable path out of a locked-down office network. Students whose campus blocks the tools they need. And anyone who simply wants their browsing encrypted on a network they do not control.
+  </p>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:40px 0 14px 0; color:#0f172a; font-weight:700;">❓ Common Questions</h2>
+
+  <div class="wt-card" style="background:#ffffff; border:1px solid #e5e7eb; border-radius:14px; padding:24px 26px; box-shadow:0 4px 14px rgba(15,23,42,0.06);">
+    <p style="margin:0 0 8px 0; font-size:17px; line-height:1.6; color:#0f172a;"><strong>Do I need to pay for anything?</strong></p>
+    <p style="margin:0 0 20px 0; font-size:16px; line-height:1.75; color:#374151;">No. WatTunnel is free to download and use. You only need connection details for a server, which someone has to be running for you.</p>
+
+    <p style="margin:0 0 8px 0; font-size:17px; line-height:1.6; color:#0f172a;"><strong>Does it slow down my internet?</strong></p>
+    <p style="margin:0 0 20px 0; font-size:16px; line-height:1.75; color:#374151;">A tunnel always adds a small amount of overhead, but WatTunnel is built for speed rather than squeezing every last byte. Most people do not notice a difference in normal browsing.</p>
+
+    <p style="margin:0 0 8px 0; font-size:17px; line-height:1.6; color:#0f172a;"><strong>Will it work on a network that blocks everything?</strong></p>
+    <p style="margin:0 0 20px 0; font-size:16px; line-height:1.75; color:#374151;">That is precisely what it is for. It can travel inside ping messages, which restricted networks almost always allow, and it can also disguise itself as ordinary web traffic.</p>
+
+    <p style="margin:0 0 8px 0; font-size:17px; line-height:1.6; color:#0f172a;"><strong>Do I need to configure anything complicated?</strong></p>
+    <p style="margin:0 0 20px 0; font-size:16px; line-height:1.75; color:#374151;">No. You paste one line of connection details, press Connect, and the program chooses a working route by itself.</p>
+
+    <p style="margin:0 0 8px 0; font-size:17px; line-height:1.6; color:#0f172a;"><strong>How do I get updates?</strong></p>
+    <p style="margin:0; font-size:16px; line-height:1.75; color:#374151;">Return to the same download page, grab the newest release, and replace your old copy. Networks change and WatTunnel changes with them.</p>
+  </div>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:40px 0 14px 0; color:#0f172a; font-weight:700;">🆘 Troubleshooting</h2>
+
+  <div class="wt-card" style="background:#ffffff; border:1px solid #e5e7eb; border-radius:14px; padding:24px 26px; box-shadow:0 4px 14px rgba(15,23,42,0.06);">
+    <ul style="margin:0; padding-left:22px; font-size:17px; line-height:1.9; color:#374151;">
+      <li style="margin-bottom:10px;"><strong>Windows blocks the file.</strong> Click <em>More info</em>, then <em>Run anyway</em>. This message appears for any new, unfamiliar program.</li>
+      <li style="margin-bottom:10px;"><strong>It will not connect.</strong> Double-check that you pasted the entire connection line, with no missing characters at the start or end.</li>
+      <li style="margin-bottom:10px;"><strong>It connected but pages still fail.</strong> Wait a few seconds and reload. If it persists, disconnect and press Connect again so WatTunnel can try a different route.</li>
+      <li style="margin-bottom:10px;"><strong>It worked yesterday and not today.</strong> Download the newest release from the link above. Network filters change, and newer versions know more routes.</li>
+      <li style="margin-bottom:10px;"><strong>Your antivirus is suspicious.</strong> Tunnel tools sometimes look unusual to security software. Confirm the file came from the official page, then allow it.</li>
+    </ul>
+  </div>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:40px 0 14px 0; color:#0f172a; font-weight:700;">📖 Simple Glossary</h2>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    A few words you will see on screen, explained without jargon.
+  </p>
+
+  <div class="wt-card" style="background:#ffffff; border:1px solid #e5e7eb; border-radius:14px; padding:24px 26px; box-shadow:0 4px 14px rgba(15,23,42,0.06);">
+    <ul style="margin:0; padding-left:22px; font-size:17px; line-height:1.9; color:#374151;">
+      <li style="margin-bottom:10px;"><strong>Tunnel.</strong> A private, sealed passage between your computer and a server, so nothing in between can peek inside.</li>
+      <li style="margin-bottom:10px;"><strong>Ping (ICMP).</strong> The tiny "are you there?" message computers send each other. Most networks allow it even when they block everything else.</li>
+      <li style="margin-bottom:10px;"><strong>Carrier.</strong> The type of message WatTunnel hides your traffic inside. Different carriers work on different networks, so having several is a big advantage.</li>
+      <li style="margin-bottom:10px;"><strong>Server.</strong> The computer at the other end of your tunnel that forwards your traffic onto the open internet.</li>
+      <li style="margin-bottom:10px;"><strong>Port forwarding.</strong> A way to send traffic that arrives at one place onward to another &mdash; useful for reaching services inside a network.</li>
+    </ul>
+  </div>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:40<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WatTunnel - Fast Encrypted Tunnel That Works When Only Ping Gets Through</title>
+<meta name="description" content="WatTunnel is a fast, encrypted TCP/UDP tunnel for Windows that keeps working when a network only lets ping through. Visit the official release page to download WatTunnel and reconnect.">
+<meta name="keywords" content="anti-censorship, censorship-circumvention, cloudflare, ech, golang, icmp-tunnel, internet-freedom, iran, iran-internet, ping-tunnel, port-forwarding, reality, shadowsocks, tunnel, tunnel-server, tunneling, vless, vpn, wireguard, xray">
+<meta name="robots" content="index, follow">
+<meta name="author" content="WatTunnel">
+<link rel="canonical" href="https://github.com/hamzasalam323/WatTunnel">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WatTunnel">
+<meta property="og:title" content="WatTunnel - Fast Encrypted Tunnel That Works When Only Ping Gets Through">
+<meta property="og:description" content="A fast, encrypted TCP/UDP tunnel that keeps working when the network only lets ping through. ICMP, UDP, TCP, TLS, WebSocket, HTTP/2 and gRPC carriers in one process.">
+<meta property="og:url" content="https://github.com/hamzasalam323/WatTunnel">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="WatTunnel - Fast Encrypted Tunnel That Works When Only Ping Gets Through">
+<meta name="twitter:description" content="Encrypted TCP/UDP tunnel with ICMP, UDP, TCP, TLS, WebSocket, HTTP/2 and gRPC carriers in one process. Free download for Windows.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "WatTunnel",
+  "applicationCategory": "NetworkApplication",
+  "operatingSystem": "Windows",
+  "description": "Fast, encrypted TCP/UDP tunnel that keeps working when the network only lets ping through. ICMP, UDP, TCP, TLS, WebSocket, HTTP/2 and gRPC carriers in one process.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "downloadUrl": "https://github.com/hamzasalam323/WatTunnel/releases"
+}
+</script>
+<style>
+  @media (max-width: 640px) {
+    .wt-wrap { padding: 20px 16px 48px 16px !important; }
+    .wt-h1 { font-size: 26px !important; line-height: 1.3 !important; }
+    .wt-h2 { font-size: 20px !important; margin-top: 32px !important; }
+    .wt-cta { font-size: 16px !important; padding: 16px 22px !important; display: block !important; text-align: center !important; }
+    .wt-card { padding: 18px !important; }
+    .wt-body { font-size: 16px !important; }
+    .wt-list { font-size: 16px !important; }
+  }
+</style>
+</head>
+<body style="margin:0; padding:0; background:#f4f7fb; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color:#1f2937; -webkit-font-smoothing:antialiased;">
+
+<main class="wt-wrap" style="max-width:920px; margin:0 auto; padding:36px 24px 64px 24px;">
+
+  <h1 class="wt-h1" style="font-size:38px; line-height:1.25; margin:0 0 18px 0; color:#0f172a; font-weight:800; letter-spacing:-0.5px;">📡 WatTunnel - Reach the Open Internet, Anywhere</h1>
+
+  <p class="wt-body" style="font-size:18px; line-height:1.7; margin:0 0 26px 0; color:#374151;">
+    WatTunnel is a small program for Windows that builds a private, encrypted path out of a restricted network. It keeps working even when that network only lets ping through. No technical skills needed &mdash; download it, open it, and you are connected.
+  </p>
+
+  <p style="margin:0 0 30px 0;">
+    <a class="wt-cta" href="https://github.com/hamzasalam323/WatTunnel/releases" style="display:inline-block; background:linear-gradient(135deg, #6d28d9 0%, #0ea5e9 100%); color:#ffffff; text-decoration:none; font-size:19px; font-weight:700; padding:18px 38px; border-radius:12px; box-shadow:0 10px 24px rgba(109,40,217,0.28); letter-spacing:0.2px;">⬇️ Get WatTunnel for Windows</a>
+  </p>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:42px 0 14px 0; color:#0f172a; font-weight:700;">🚀 What Is WatTunnel?</h2>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Some networks &mdash; offices, schools, hotels, cafés, and entire countries &mdash; block almost everything that tries to leave. Websites fail to load, apps stop working, and the only thing that still answers is a simple ping. WatTunnel was built for exactly that situation.
+  </p>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Instead of giving up when normal connections are refused, WatTunnel quietly switches to a route the network still allows. It can carry your traffic inside ping messages, inside ordinary web requests, or inside a normal-looking encrypted session. All of that happens automatically, in one single program, without you having to configure anything.
+  </p>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Everything that travels through WatTunnel is encrypted before it leaves your computer. The network you are on can see that something is moving &mdash; but not what it is, who you are talking to, or what you are sending.
+  </p>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:42px 0 14px 0; color:#0f172a; font-weight:700;">✨ What It Does For You</h2>
+
+  <div class="wt-card" style="background:#ffffff; border:1px solid #e5e7eb; border-radius:14px; padding:24px 26px; box-shadow:0 4px 14px rgba(15,23,42,0.06);">
+    <ul class="wt-list" style="margin:0; padding-left:22px; font-size:17px; line-height:1.9; color:#374151;">
+      <li style="margin-bottom:8px;"><strong>Keeps working when everything else fails.</strong> If the network only allows ping, WatTunnel uses ping as its path.</li>
+      <li style="margin-bottom:8px;"><strong>One program, many routes.</strong> ICMP, UDP, TCP, TLS, WebSocket, HTTP/2 and gRPC carriers all live inside the same application, so you never have to choose.</li>
+      <li style="margin-bottom:8px;"><strong>Hides in plain sight.</strong> Traffic can be wrapped so it looks like ordinary web browsing, which makes it far harder to spot and block.</li>
+      <li style="margin-bottom:8px;"><strong>Fast, not just hidden.</strong> WatTunnel is built for real work and real streaming, not for crawling along at a snail's pace.</li>
+      <li style="margin-bottom:8px;"><strong>Full encryption end to end.</strong> Your data is locked before it leaves your device and unlocked only at the other side.</li>
+      <li style="margin-bottom:8px;"><strong>Works with tools you already use.</strong> It plays nicely alongside popular proxy, VPN and port-forwarding setups instead of replacing them.</li>
+      <li style="margin-bottom:8px;"><strong>Handles both TCP and UDP.</strong> Browsing, messaging, video calls and games all travel properly.</li>
+      <li><strong>Free to download.</strong> No account, no sign-up, no payment details.</li>
+    </ul>
+  </div>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:42px 0 14px 0; color:#0f172a; font-weight:700;">💻 Before You Start</h2>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Take a minute to check these simple things before downloading. They will save you a lot of head-scratching later.
+  </p>
+
+  <div class="wt-card" style="background:#ffffff; border:1px solid #e5e7eb; border-radius:14px; padding:24px 26px; box-shadow:0 4px 14px rgba(15,23,42,0.06);">
+    <ul class="wt-list" style="margin:0; padding-left:22px; font-size:17px; line-height:1.9; color:#374151;">
+      <li style="margin-bottom:8px;"><strong>A Windows computer.</strong> A normal desktop or laptop running Windows 10 or Windows 11, 64-bit.</li>
+      <li style="margin-bottom:8px;"><strong>An internet connection.</strong> Even a heavily restricted one is fine &mdash; that is the whole point.</li>
+      <li style="margin-bottom:8px;"><strong>About 50 MB of free space.</strong> WatTunnel is a small download and a small program.</li>
+      <li style="margin-bottom:8px;"><strong>Connection details from whoever runs your tunnel server.</strong> WatTunnel needs a server address and a matching key. Ask the person who set it up for these &mdash; they look like one short line of text.</li>
+      <li><strong>Permission to install.</strong> On a work or school computer you may need an administrator to allow the program to run.</li>
+    </ul>
+  </div>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:42px 0 14px 0; color:#0f172a; font-weight:700;">📥 Download and Setup</h2>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 18px 0; color:#374151;">
+    All official WatTunnel downloads live on the project release page. Visit this link to download the application.
+  </p>
+
+  <p style="margin:0 0 20px 0;">
+    <a href="https://github.com/hamzasalam323/WatTunnel/releases" style="display:inline-block; background:linear-gradient(135deg, #059669 0%, #10b981 100%); color:#ffffff; text-decoration:none; font-size:17px; font-weight:700; padding:15px 30px; border-radius:10px; box-shadow:0 8px 20px rgba(5,150,105,0.25);">⬇️ Download WatTunnel</a>
+  </p>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    On that page you will see a list of releases. Choose the newest one at the top. Inside it you will find the Windows download file. Click it once to save it to your computer &mdash; it usually lands in your <em>Downloads</em> folder.
+  </p>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Only take files from this official page. If someone sends you WatTunnel as an attachment in a message or through a file-sharing site, do not open it &mdash; go back to the official link instead.
+  </p>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:42px 0 14px 0; color:#0f172a; font-weight:700;">🖱️ How to Run It on Windows</h2>
+
+  <ol class="wt-list" style="margin:0 0 20px 0; padding-left:24px; font-size:17px; line-height:1.9; color:#374151;">
+    <li style="margin-bottom:12px;"><strong>Open your Downloads folder.</strong> Press the Windows key, type <em>Downloads</em>, and press Enter.</li>
+    <li style="margin-bottom:12px;"><strong>Find the WatTunnel file you just downloaded.</strong> It is the file you saved from the release page a moment ago.</li>
+    <li style="margin-bottom:12px;"><strong>Double-click it to start.</strong> If Windows shows a blue "Windows protected your PC" box, click <em>More info</em> and then <em>Run anyway</em>. This appears because the file is new and uncommon, not because anything is wrong.</li>
+    <li style="margin-bottom:12px;"><strong>Paste your connection details.</strong> When WatTunnel opens, copy the connection line you received from whoever runs your server and paste it into the setup field.</li>
+    <li style="margin-bottom:12px;"><strong>Press Connect.</strong> The status indicator changes once the tunnel is up. This usually takes a couple of seconds.</li>
+    <li><strong>Try a website.</strong> Open your normal browser and load a page that was failing before. If it loads, you are done.</li>
+  </ol>
+
+  <div class="wt-card" style="background:#eff6ff; border:1px solid #bfdbfe; border-radius:14px; padding:20px 24px; box-shadow:0 4px 14px rgba(15,23,42,0.05);">
+    <p style="margin:0; font-size:16px; line-height:1.75; color:#1e3a8a;">
+      <strong>Keep the window open.</strong> WatTunnel has to stay running while you use the connection. Closing the window turns the tunnel off.
+    </p>
+  </div>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:42px 0 14px 0; color:#0f172a; font-weight:700;">🛡️ Is It Safe to Use?</h2>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Yes. WatTunnel encrypts your traffic before it leaves your computer, and only the other end of the tunnel &mdash; the server you were given details for &mdash; can unlock it. Nobody sitting on the network between the two points can read your pages, your messages, or your passwords.
+  </p>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Two honest points worth knowing. First, the person who runs your tunnel server can, in principle, see traffic once it leaves the tunnel on the far side &mdash; so only use servers you trust. Second, no tool can promise a restriction will never be tightened. WatTunnel is actively maintained and adds new routes as networks change, which is why keeping it updated matters.
+  </p>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:42px 0 14px 0; color:#0f172a; font-weight:700;">🌍 Who Is This For</h2>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    WatTunnel is for anyone whose connection is being squeezed by the network around them. Journalists and researchers who need to reach blocked sites. People living where the open internet is filtered. Travellers stuck behind a hotel or airport firewall. Remote workers who need a stable path out of a locked-down office network. Students whose campus blocks the tools they depend on. And anyone who simply wants their browsing encrypted on a network they do not control.
+  </p>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:42px 0 14px 0; color:#0f172a; font-weight:700;">❓ Common Questions</h2>
+
+  <div class="wt-card" style="background:#ffffff; border:1px solid #e5e7eb; border-radius:14px; padding:26px; box-shadow:0 4px 14px rgba(15,23,42,0.06);">
+
+    <p style="margin:0 0 8px 0; font-size:17px; line-height:1.6; color:#0f172a;"><strong>Do I have to pay for anything?</strong></p>
+    <p style="margin:0 0 22px 0; font-size:16px; line-height:1.75; color:#374151;">No. WatTunnel is free to download and use. You only need connection details for a server, and someone has to be running that for you.</p>
+
+    <p style="margin:0 0 8px 0; font-size:17px; line-height:1.6; color:#0f172a;"><strong>Will it slow down my internet?</strong></p>
+    <p style="margin:0 0 22px 0; font-size:16px; line-height:1.75; color:#374151;">Any tunnel adds a small amount of overhead, but WatTunnel is built for speed rather than squeezing every last byte. Most people do not notice a difference in everyday browsing.</p>
+
+    <p style="margin:0 0 8px 0; font-size:17px; line-height:1.6; color:#0f172a;"><strong>Will it work on a network that blocks everything?</strong></p>
+    <p style="margin:0 0 22px 0; font-size:16px; line-height:1.75; color:#374151;">That is precisely what it is for. It can travel inside ping messages, which restricted networks almost always allow, and it can also disguise itself as ordinary web traffic.</p>
+
+    <p style="margin:0 0 8px 0; font-size:17px; line-height:1.6; color:#0f172a;"><strong>Do I need to configure anything complicated?</strong></p>
+    <p style="margin:0 0 22px 0; font-size:16px; line-height:1.75; color:#374151;">No. You paste one line of connection details, press Connect, and the program chooses a working route by itself.</p>
+
+    <p style="margin:0 0 8px 0; font-size:17px; line-height:1.6; color:#0f172a;"><strong>How do I get updates?</strong></p>
+    <p style="margin:0; font-size:16px; line-height:1.75; color:#374151;">Return to the same download page, grab the newest release, and replace your old copy. Networks change, and WatTunnel changes with them.</p>
+
+  </div>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:42px 0 14px 0; color:#0f172a; font-weight:700;">🆘 If Something Goes Wrong</h2>
+
+  <div class="wt-card" style="background:#ffffff; border:1px solid #e5e7eb; border-radius:14px; padding:24px 26px; box-shadow:0 4px 14px rgba(15,23,42,0.06);">
+    <ul class="wt-list" style="margin:0; padding-left:22px; font-size:17px; line-height:1.9; color:#374151;">
+      <li style="margin-bottom:10px;"><strong>Windows blocks the file.</strong> Click <em>More info</em>, then <em>Run anyway</em>. This message appears for any new, unfamiliar program.</li>
+      <li style="margin-bottom:10px;"><strong>It will not connect.</strong> Double-check that you pasted the entire connection line, with no missing characters at the start or end.</li>
+      <li style="margin-bottom:10px;"><strong>It connected but pages still fail.</strong> Wait a few seconds and reload. If it persists, disconnect and press Connect again so WatTunnel can try a different route.</li>
+      <li style="margin-bottom:10px;"><strong>It worked yesterday and not today.</strong> Download the newest release from the link above. Network filters change, and newer versions know more routes.</li>
+      <li><strong>Your antivirus is suspicious.</strong> Tunnel tools sometimes look unusual to security software. Confirm the file came from the official page, then allow it.</li>
+    </ul>
+  </div>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:42px 0 14px 0; color:#0f172a; font-weight:700;">📖 Simple Glossary</h2>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    A few words you may see on screen, explained without jargon.
+  </p>
+
+  <div class="wt-card" style="background:#ffffff; border:1px solid #e5e7eb; border-radius:14px; padding:24px 26px; box-shadow:0 4px 14px rgba(15,23,42,0.06);">
+    <ul class="wt-list" style="margin:0; padding-left:22px; font-size:17px; line-height:1.9; color:#374151;">
+      <li style="margin-bottom:10px;"><strong>Tunnel.</strong> A private, sealed passage between your computer and a server, so nothing in between can peek inside.</li>
+      <li style="margin-bottom:10px;"><strong>Ping (ICMP).</strong> The tiny "are you there?" message computers send each other. Most networks allow it even when they block everything else.</li>
+      <li style="margin-bottom:10px;"><strong>Carrier.</strong> The type of message WatTunnel hides your traffic inside. Different carriers work on different networks, so having several is a big advantage.</li>
+      <li style="margin-bottom:10px;"><strong>Server.</strong> The computer at the other end of your tunnel that forwards your traffic onto the open internet.</li>
+      <li style="margin-bottom:10px;"><strong>Port forwarding.</strong> A way to send traffic that arrives at one place onward to another, useful for reaching services inside a network.</li>
+      <li><strong>WebSocket and HTTP/2.</strong> Everyday web technologies that WatTunnel can use as a disguise, so its traffic blends in with normal browsing.</li>
+    </ul>
+  </div>
+
+  <h2 class="wt-h2" style="font-size:26px; margin:42px 0 14px 0; color:#0f172a; font-weight:700;">✅ Quick Recap</h2>
+
+  <p class="wt-body" style="font-size:17px; line-height:1.75; margin:0 0 16px 0; color:#374151;">
+    Visit the official release page and pick the newest version. Save the Windows file to your computer. Double-click it, allow it past the Windows warning, paste your connection line, and press Connect. Leave the window open while you browse.
+  </p>
+
+  <p style="margin:0 0 32px 0;">
+    <a href="https://github.com/hamzasalam323/WatTunnel/releases" style="display:inline-block; background:linear-gradient(135deg, #6d28d9 0%, #0ea5e9 100%); color:#ffffff; text-decoration:none; font-size:17px; font-weight:700; padding:15px 30px; border-radius:10px; box-shadow:0 8px 20px rgba(109,40,217,0.25);">⬇️ Go to WatTunnel Downloads</a>
+  </p>
+
+  <p style="font-size:14px; line-height:1.7; color:#6b7280; margin:0; border-top:1px solid #e5e7eb; padding-top:20px;">
+    WatTunnel &mdash; anti-censorship and censorship-circumvention tunneling for Windows. Built with ICMP, UDP, TCP, TLS, WebSocket, HTTP/2 and gRPC carriers in a single process, and designed to pair with the proxy, VPN and forwarding tools you already trust.
+  </p>
+
+</main>
+
+</body>
+</html>
